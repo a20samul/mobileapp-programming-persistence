@@ -23,4 +23,7 @@ public class Location {
         return population;
     }
 
+    @Override
+    public String toString() { return city + " " + country + " " + population;}
+
 }

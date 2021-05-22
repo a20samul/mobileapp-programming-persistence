@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Persistence</string>
-    <string name="edittext1">Country</string>
-    <string name="edittext2">City</string>
+    <string name="edittext1">City</string>
+    <string name="edittext2">Country</string>
     <string name="edittext3">Population</string>
 </resources>
