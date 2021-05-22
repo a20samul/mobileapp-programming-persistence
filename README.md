@@ -127,7 +127,7 @@ Denna data skickades vidare till strängen toString vilken skulle förmedla och 
 ```
 
 
-![2](android.png)
+![](2.png)
 _Bild 1: Demonstrerar ett toastmeddelande då data har lyckats insättas i databasen._
 
 
@@ -160,6 +160,7 @@ cursor under 'cursor.movetonext' hänvisar till kolumnerna med dess datatyp och 
           cursor.close();
           return locations;
       }
+```
 
 En constructor skapades för att förbereda konstruktorn vid möte av angivna datatyper(se nedan)
 för att förmedla hur objekten skulle skapas. Denna följde samma kolumnordning, och nu kunde objekten skapas.
@@ -177,7 +178,7 @@ för att förmedla hur objekten skulle skapas. Denna följde samma kolumnordning
       till metoden toString i Location-klassen som uppvisade datan i den skapta textviewn i steg 1.
       När datan lyckats uppvisas möttes användaren av en toast som intygade detta.
 
-      ```
+```
               Button read = findViewById(R.id.read);
               read.setOnClickListener(new View.OnClickListener() {
                   @Override
@@ -194,7 +195,7 @@ för att förmedla hur objekten skulle skapas. Denna följde samma kolumnordning
                       return;
                   }
               });
-      ```
+```
 
-![3](android.png)
+![](3.png)
 _Bild 2: Uppvisar uppvisandet av den insatta data från databasen._
