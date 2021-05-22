@@ -12,6 +12,6 @@ public class Location {
     }
 
     @Override
-    public String toString() { return city + " " + country + " " + population;}
+    public String toString() { return city + ", " + country + ", " + population;}
 
 }
